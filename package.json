@@ -1,0 +1,16 @@
+{
+  "name": "@ayushsinha79/funbase",
+  "version": "2.0.6",
+  "description": "",
+  "bin": {
+    "funbase": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-windows": "copy /Y cli.js %APPDATA%\\npm\\node_modules\\funbase\\cli.js",
+    "uninstall-windows": "del %APPDATA%\\npm\\node_modules\\funbase\\cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
